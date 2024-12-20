@@ -12,7 +12,7 @@ const AboutMenu = () => {
 
   const handleMenuItemClick = (menuItem) => {
     setActiveMenuItem(menuItem);
-    setActiveSubheading(1); // Reset subheading when a new menu item is clicked
+    setActiveSubheading(1);
   };
 
   const handleSubheadingClick = (subheading) => {
